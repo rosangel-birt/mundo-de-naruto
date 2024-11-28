@@ -1,0 +1,32 @@
+/* 
+ * Nombre: Rosangel Campusano Rosario
+ * Módulo: Lenguaje de marcas y Sistemas de gestión de la información.
+ * Fecha: 29/11/2024
+ * LMSGI02.
+ * Tarea evaluativa 2. Sitio Web.
+ */
+
+/* Hoja de estilos para la página de categorias con sus estilos propios */
+main {
+    width: 100%;
+}
+
+/* Se cambia el orden de los elementos con respecto al main section que tenemos en en común.css.
+ De modo que se ordenan en filas en vez de columnas. */
+main section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+article {
+    min-width: 10rem;
+    max-width: 15rem;
+    align-content: flex-start;
+}
+
+.img-categoria {
+    height: 15rem;
+}

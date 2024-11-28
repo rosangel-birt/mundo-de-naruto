@@ -1,0 +1,77 @@
+<!-----------------------------------------------------------------------------------
+* Nombre: Rosangel Campusano Rosario
+* Módulo: Lenguaje de marcas y Sistemas de gestión de la información.
+* Fecha: 29/11/2024
+* LMSGI02.
+* Tarea evaluativa 2. Sitio Web.
+--------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="Naruto, mundo Naruto, shinobi, ninja">
+    <!-- Carga de fuente Bangers de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>El mundo de Naruto</title>
+    <!-- Carga de hojas de estilo -->
+    <link rel="stylesheet" href="./estilos/comun.css">
+</head>
+<body>
+    <!-- Header que contiene el título de la página -->
+    <header>
+        <h1 id="titulo">El mundo de Naruto</h1>
+    </header>
+    <!-- div utilizado para poder hacer posicionamientos utilizando flexbox -->
+    <div class="principal">
+        <nav>
+            <!-- Navegación entre las diferentes páginas -->
+            <ul>
+                <!-- El elemento marcado con la clase pagina-actual se ve diferente para indicar la página actual -->
+                <a href="./index.html"><li class="pagina-actual">Inicio</li></a> 
+                <a href="./paginas/categoria.html"><li>Categorías</li></a>
+                <a href="./paginas/noticias.html"><li>Noticias</li></a>
+                <a href="./paginas/contacto.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+        <!-- Se define un main, con una sola sección y varios artículos en su interior -->
+        <main>
+            <section>
+                <article>
+                    <h1>Introducción</h1>
+                    <img src="./imagenes/naruto_logo.png" alt="Logo de Naruto">
+                    <p>Naruto es una serie de manga escrita e ilustrada por Masashi Kishimoto, posteriormente adaptada a una serie de anime. Narra la historia de un ninja adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas llamado Kurama y quien aspira a convertirse en Hokage (líder de su aldea), con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.</p>
+                </article>
+                <article>
+                    <h1>Artículo Destacado</h1>
+                    <h2>Boruto: estos son algunos de los cambios que ha sufrido el manga tras el salto temporal</h2>
+                    <img src="./imagenes/boruto.jpg" alt="Boruto">
+                    <p>Tras algún tiempo de pausa, el manga de Boruto retomó su publicación, cambiando también el nombre de la obra, señalando así que era un gran cambio de enfoque en la trama. Ahora se llamaría 'Boruto: Two Blue Vortex'. De esta forma, el título dejaba atrás todo el tema de Naruto y su generación, para dar total relevancia a la nueva generación.</p>
+
+                    <a class="leer-mas" href="https://www.mundodeportivo.com/alfabeta/series/boruto-estos-son-algunos-de-los-cambios-que-ha-sufrido-el-manga-tras-el-salto-temporal" target="_blank">
+                        <p>Leer más...</p>
+                    </a>
+                </article>
+            </section>
+        </main>
+        <!-- El aside representa en este caso contenido adicional, nos permite ir a las categorías directamente -->
+        <aside>
+            <h2><a href="./paginas/categoria.html">Categorías</a></h2>
+            <ul>
+                <a href="./paginas/aldea.html"><li>Aldeas</li></a>
+                <li>Jutsus</li>
+                <li>Clanes</li>
+                <li>Personajes</li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>Autoría y licencias: Página web realizada por Rosangel Campusano Rosario con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+    </footer>
+    <!-- Se añade un botón que permite volver a la parte de arriba de la página en todo momento -->
+    <a id="boton-volver-arriba" href="#titulo">Volver</a>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!-----------------------------------------------------------------------------------
+* Nombre: Rosangel Campusano Rosario
+* Módulo: Lenguaje de marcas y Sistemas de gestión de la información.
+* Fecha: 29/11/2024
+* LMSGI02.
+* Tarea evaluativa 2. Sitio Web.
+--------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="Naruto, mundo Naruto, shinobi, ninja, aldea">
+    <!-- Carga de fuente Bangers de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>El mundo de Naruto - Aldeas</title>
+    <!-- Carga de hojas de estilo -->
+    <link rel="stylesheet" href="../estilos/comun.css">
+</head>
+<body>
+    <!-- Header que contiene el título de la página -->
+    <header>
+        <h1 id="titulo">Aldeas</h1>
+    </header>
+    <!-- div utilizado para poder hacer posicionamientos utilizando flexbox -->
+    <div class="principal">
+        <nav>
+            <ul>
+                <a href="../index.html"><li>Inicio</li></a>
+                <a href="./categoria.html"><li>Categorías</li></a>
+                <a href="./noticias.html"><li>Noticias</li></a>
+                <a href="./contacto.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <!-- Se incluyen un par de párrafos de introducción a las aldeas -->
+                <p>En el universo de Naruto, las Aldeas Ocultas son territorios que funcionan como la fuerza militar de sus respectivos países y son clave para su economía, gracias a los ingresos generados por las misiones. Sus habitantes, principalmente shinobis, desarrollan habilidades únicas desde la infancia, siguiendo un código de vestimenta y usando bandas distintivas. Este entrenamiento temprano asegura que las aldeas formen ejércitos prestigiosos y altamente valorados.</p>
+                <p>En este mundo, las cinco grandes naciones albergan las principales aldeas shinobi, consideradas las más poderosas y fundamentales en la política y comercio entre las naciones ninja. Los líderes de estas aldeas, llamados Kage, son reconocidos por comandar a miles de ninjas bajo su autoridad. Estas aldeas son las principales potencias del mundo shinobi.</p>
+                
+                <!-- Cada artículo representa una de las aldeas, en los estilos se utiliza flex para alinearlos -->
+                <article>
+                    <h1>Aldea Oculta entre las Hojas</h1>
+                    <img src="../imagenes/hokage.jpg" alt="Aldea Oculta entre las Hojas">
+                    <p>La aldea, liderada por el Hokage, es conocida por ser la primera aldea oculta del mundo shinobi y el origen de la paz tras la Era de Guerra entre Clanes. Fue fundada por los poderosos clanes Senju y Uchiha, con Hashirama Senju como su primer Kage. Se destacó por repartir las Bestias con Cola para promover la paz, crear los ANBU como unidad militar especializada y honrar a sus Hokages con esculturas en una colina. Su filosofía se basa en la Voluntad de Fuego. Es la aldea de origen de Naruto Uzumaki, los Sannin legendarios y varios miembros de Akatsuki, como Itachi y Sasuke Uchiha.</p>
+                </article>
+
+                <article>
+                    <h1>Aldea Oculta entre las Nubes</h1>
+                    <img src="../imagenes/aldea_nube.jpg" alt="Aldea Oculta entre las Nubes">
+                    <p>La aldea, liderada por el Raikage, es considerada la segunda más poderosa después de Konohagakure. Sus ninjas destacan en el uso de técnicas de Elemento Rayo y Kenjutsu. Cuenta con dos Bestias con Cola, Matatabi y Gyūki, y su único clan conocido es el Yotsuki. Su símbolo representa nubes, formado por óvalos alargados conectados y uno adicional a la izquierda.</p>
+                </article>
+
+                
+                <article>
+                    <h1>Aldea Oculta entre las Rocas</h1>
+                    <img src="../imagenes/aldea_roca.jpg" alt="Aldea Oculta entre las Rocas">
+                    <p>La aldea, liderada por el Tsuchikage, ha tenido cuatro líderes hasta ahora y se caracteriza por frecuentes conflictos con Konohagakure y Kirigakure. Es el lugar de origen de Deidara, miembro de Akatsuki, y la única que contrató a esta organización como mercenarios. Posee a las Bestias con Cola Son Gokū y Kokuō, y destaca por ser la única con shinobis que dominan el Kekkei Tota. Ubicada en una región montañosa, sus ninjas sobresalen en técnicas de Elemento Tierra.</p>
+                </article>
+
+                <article>
+                    <h1>Aldea Oculta entre las Nieblas</h1>
+                    <img src="../imagenes/aldea_niebla.jpg" alt="Aldea Oculta entre las Nieblas">
+                    <p>Kirigakure, ubicada en el País del Agua, es conocida como la Aldea de la Niebla Sangrienta y está liderada por el Mizukage, título que ha sido ostentado por seis líderes hasta ahora, siendo Chōjūrō el actual. Sus ninjas se especializan en técnicas de Elemento Agua y Jutsu de Ocultación en la Niebla. Es la cuna de los legendarios Siete Espadachines de la Niebla y de Kisame Hoshigaki, miembro de Akatsuki. Además, la aldea es hogar de dos Bestias con Cola, Saiken e Isobu.</p>
+                </article>
+
+                <article>
+                    <h1>Aldea Oculta entre las Arena</h1>
+                    <img src="../imagenes/aldea_arena.jpg" alt="Aldea Oculta entre las Arena">
+                    <p>La aldea, liderada por el Kazekage, ha tenido cinco líderes, siendo Gaara, Kankurō y Temari sus habitantes destacados. Es el lugar de origen de Sasori, miembro de Akatsuki, y del Shukaku, su única Bestia con Cola, vinculada a un espíritu encerrado en una tetera. Con Gaara como Quinto Kazekage, estableció una alianza con Konohagakure. Su símbolo es un reloj de arena, y sus ninjas sobresalen en marionetismo, uso de armas envenenadas y técnicas basadas en los Elementos Viento e Imán.</p>
+                </article>
+            </section>
+        </main>
+        <!-- El aside representa en este caso contenido adicional, nos muestra contenido relacionado -->
+        <aside>
+            <img src="../imagenes/minato.gif" alt="Minato" height="200rem">
+            <h2>Minato Namikaze, personaje favorito de Naruto</h2>
+            <p>A finales del 2022, para conmemorar los 20 años del anime de Naruto, Masashi Kishimoto y su equipo organizaron una gran encuesta global para elegir al personaje favorito de la serie. El incentivo no era solo el reconocimiento, sino también la promesa del autor de crear un manga corto sobre el ganador. Tras finalizar la votación, Minato, el Cuarto Hokage, fue elegido como el favorito por la comunidad.</p>
+        </aside>
+    </div>
+    <footer>
+        <p>Autoría y licencias: Página web realizada por Rosangel Campusano Rosario con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+    </footer>
+    <!-- Se añade un botón que permite volver a la parte de arriba de la página en todo momento -->
+    <a id="boton-volver-arriba" href="#titulo">Volver</a>
+</body>
+</html>

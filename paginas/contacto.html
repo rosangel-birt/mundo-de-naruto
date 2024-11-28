@@ -1,0 +1,85 @@
+<!-----------------------------------------------------------------------------------
+* Nombre: Rosangel Campusano Rosario
+* Módulo: Lenguaje de marcas y Sistemas de gestión de la información.
+* Fecha: 29/11/2024
+* LMSGI02.
+* Tarea evaluativa 2. Sitio Web.
+--------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="Naruto, mundo Naruto, shinobi, ninja, contacto, itachi">
+    <!-- Carga de fuente Bangers de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>El mundo de Naruto - Contacto</title>
+    <!-- Carga de hojas de estilo -->
+    <link rel="stylesheet" href="../estilos/comun.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
+</head>
+<body>
+    <!-- Header que contiene el título de la página -->
+    <header>
+        <h1 id="titulo">Contacto</h1>
+    </header>
+    <!-- div utilizado para poder hacer posicionamientos utilizando flexbox -->
+    <div class="principal">
+        <nav>
+            <ul>
+                <a href="../index.html"><li>Inicio</li></a>
+                <a href="./categoria.html"><li>Categorías</li></a>
+                <a href="./noticias.html"><li>Noticias</li></a>
+                <a href="./contacto.html"><li class="pagina-actual">Contacto</li></a>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <form id="form" action="mailto:rcampusano@birt.eus" method="post">
+                    <fieldset>
+                        <legend><h1>Contacto</h1></legend>
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="nombre" required placeholder="Introduce tu nombre"><br>
+                        <label for="fapellidos">Apellidos:</label>
+                        <input type="text" id="fapellidos" name="apellidos" required placeholder="Introduce tus apellidos"><br>
+                        <label for="fcorreo">Correo:</label>
+                        <input type="email" id="fcorreo" name="correo" required placeholder="Introduce tu correo electrónico"><br>
+
+                        <label for="aldea">Elige tu aldea favorita:</label>
+                        <select id="aldea" name="aldea" required>
+                            <option value=""></option>
+                            <option value="hoja">Aldea Oculta entre las Hojas</option>
+                            <option value="nubes">Aldea Oculta entre las Nubes</option>
+                            <option value="rocas">Aldea Oculta entre las Rocas</option>
+                            <option value="nieblas">Aldea Oculta entre las Nieblas</option>
+                            <option value="arena">Aldea Oculta entre las Arena</option>
+                        </select><br>
+
+                        <label for="fcomentario">Comentario:</label>
+                        <textarea id="fcomentario" name="comentario" rows="10"></textarea><br>
+
+                        <input id="boton-enviar" type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <!-- El aside representa en este caso contenido adicional, nos permite ir a las diferentes redes sociales -->
+        <aside>
+            <h2>Redes Sociales</h2>
+            <ul>
+                <a href="https://www.linkedin.com/in/rosangel-campusano-rosario/" target="_blank"><li><img src="../imagenes/linkedin-logo.png" alt="logo de linkedin"/></li></a>
+                <li><img src="../imagenes/instagram-logo.png" alt="logo de instagram"/></li>
+                <li><img src="../imagenes/twitter-x-logo.png" alt="logo de twitter/x"/></li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>Autoría y licencias: Página web realizada por Rosangel Campusano Rosario con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+    </footer>
+    <!-- Se añade un botón que permite volver a la parte de arriba de la página en todo momento -->
+    <a id="boton-volver-arriba" href="#titulo">Volver</a>
+</body>
+</html>

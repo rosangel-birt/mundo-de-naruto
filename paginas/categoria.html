@@ -1,0 +1,70 @@
+<!-----------------------------------------------------------------------------------
+* Nombre: Rosangel Campusano Rosario
+* Módulo: Lenguaje de marcas y Sistemas de gestión de la información.
+* Fecha: 29/11/2024
+* LMSGI02.
+* Tarea evaluativa 2. Sitio Web.
+--------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="Naruto, mundo Naruto, shinobi, ninja">
+    <!-- Carga de fuente Bangers de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <title>El mundo de Naruto - Categorias</title>
+    <!-- Carga de hojas de estilo -->
+    <link rel="stylesheet" href="../estilos/comun.css">
+    <link rel="stylesheet" href="../estilos/categoria.css">
+</head>
+<body>
+    <!-- Header que contiene el título de la página -->
+    <header>
+        <h1 id="titulo">Categorías</h1>
+    </header>
+    <!-- div utilizado para poder hacer posicionamientos utilizando flexbox -->
+    <div class="principal">
+        <nav>
+            <ul>
+                <a href="../index.html"><li>Inicio</li></a>
+                <a href="./categoria.html"><li class="pagina-actual">Categorías</li></a>
+                <a href="./noticias.html"><li>Noticias</li></a>
+                <a href="./contacto.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <img class="img-categoria" src="../imagenes/aldeas.jpg" alt="Aldeas Ocultas">
+                    <a href="./aldea.html"><h1>Aldeas</h1></a>
+                    <p>Las Aldeas Ocultas (隠れ里, Kakure sato), también conocidas como Aldeas Ninja (忍の里, Shinobi no Sato), son territorios que se encuentran localizados en gran parte de los países del mundo y que funcionan como la fuerza militar del país en el que residen.</p>
+                </article>
+                <article>
+                    <img class="img-categoria" src="../imagenes/justsu.jpg" alt="Jutsu">
+                    <h1>Jutsus</h1>
+                    <p>Los Jutsu (術; significa literalmente "Técnicas/Habilidades") son las artes místicas de un ninja que utilizan en la batalla. Para utilizar gran parte de los jutsus, el ninja necesita moldear chakra.</p>
+                </article>
+                <article>
+                    <img class="img-categoria" src="../imagenes/clanes.jpg" alt="Clanes">
+                    <h1>Clanes</h1>
+                    <p>Los clanes en Naruto representan a la unión de varias familias bajo un mismo título. Esta idea se creó para preservar “el poder” dentro de un mismo clan. Muchas habilidades que se heredan han sido usadas en la guerra a favor de cada aldea.</p>
+                </article>
+                <article>
+                    <img class="img-categoria" src="../imagenes/personajes.jpg" alt="Personaje">
+                    <h1>Personajes</h1>
+                    <p>Los protagonistas de la serie Naruto son Naruto Uzumaki, Sasuke Uchiha, Sakura Haruno y Kakashi Hatake, quienes forman el "Equipo 7" (第7班, Dainanahan) de Konohagakure.</p>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>Autoría y licencias: Página web realizada por Rosangel Campusano Rosario con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+    </footer>
+    <!-- Se añade un botón que permite volver a la parte de arriba de la página en todo momento -->
+    <a id="boton-volver-arriba" href="#titulo">Volver</a>
+</body>
+</html>

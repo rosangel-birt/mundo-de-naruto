@@ -1,0 +1,60 @@
+/* 
+ * Nombre: Rosangel Campusano Rosario
+ * Módulo: Lenguaje de marcas y Sistemas de gestión de la información.
+ * Fecha: 29/11/2024
+ * LMSGI02.
+ * Tarea evaluativa 2. Sitio Web.
+ */
+ 
+/* Hoja de estilo para la página de contacto, que tiene los estilos propios de esta */
+section form {
+    background-color: #f8f393;
+    border: 0.05rem solid black;
+    padding: 1rem;
+}
+
+form fieldset {
+    border: 0.05rem solid #f6b700;
+}
+
+main, section {
+    width: 100%;
+}
+
+form input, form select {
+    margin: 1rem 0;
+    width: 50%;
+}
+
+form label {
+    width: 45%;
+}
+
+#fcomentario {
+    width: 100%;
+}
+
+aside {
+    max-width: 25%;
+}
+
+aside li {
+    text-align: center;
+}
+
+aside img {
+    max-width: 4rem;
+}
+
+#boton-enviar {
+    background-color: #f6b700;
+    height: 3rem;
+    width: 10rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+
+/* Cambio de color cuando el usuario pasa el ratón por encima del botón */
+#boton-enviar:hover {
+    background-color: #007acc;
+}
